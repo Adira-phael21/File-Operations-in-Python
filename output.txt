@@ -1,0 +1,9 @@
+# Step 5: Write processed text and word count to output.txt
+with open("output.txt", "w") as f:
+    f.write(content_upper)
+    f.write(f"\n\nWORD COUNT: {word_count}\n")
+
+  # Step 5: Write processed text and word count to output.txt
+with open("output.txt", "w") as f:
+    f.write(content_upper)
+    f.write(f"\n\nWORD COUNT: {word_count}\n")  

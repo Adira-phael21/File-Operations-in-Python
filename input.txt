@@ -1,0 +1,23 @@
+# Step 1: Create and write to input.txt
+with open("input.txt", "w") as f:
+    f.write("Python is a powerful programming language.\n")
+    f.write("It is widely used in web development.\n")
+    f.write("Data science relies heavily on Python.\n")
+    f.write("Machine learning projects often use it.\n")
+    f.write("Python is also great for automation.\n")
+
+# Step 2: Read the contents of input.txt
+with open("input.txt", "r") as f:
+    content = f.read()
+
+# Step 3: Count the number of words
+word_count = len(content.split())
+
+# Step 4: Convert all text to uppercase
+content_upper = content.upper()
+
+
+
+# Step 6: Print success mesge
+print("✅ output.txt has been created successfully!")
+sa
